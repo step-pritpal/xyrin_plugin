@@ -1,0 +1,96 @@
+ul.xt-category-mobile-menu.category-menu.style2,.xt_mobile_menu_toggle {
+    display: none;
+}
+
+.xt_extra_menus_container {
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    margin-left: 30px;
+}
+
+.header.style4  .xt_extra_menus_container.open .category-menu.style2 {
+    display: block;
+}
+
+@media only screen and (max-width: 1199px) {
+    .header.style4  .xt_extra_menus_container .category-menu.style2 li.current-menu-item {
+        background: #d5d5d5 !important;
+    }
+
+    .header.style4  .xt_extra_menus_container .category-menu.style2 li {
+        padding: 0 20px;
+        display: block;
+        width: 100%;
+    }
+
+    .header.style4  .xt_extra_menus_container .category-menu.style2 {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        font-size: 14px;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+        box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    }
+    
+    .xt_extra_menus_container .category-menu.style2 a:hover {
+        background: #e5e5e5;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    ul.xt-category-mobile-menu.category-menu.style2.shown {
+        display: inline-block;
+    }
+    .xt_mobile_menu_toggle {
+        display: block;
+    }
+
+    ul.xt-category-main-menu.category-menu.style2,
+    .xt_extra_menus_container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .xt_extra_menus_container .category-menu.style2 li:first-child {
+        padding-left: 40px;
+    }
+
+    .xt_extra_menus_container {
+        position: inherit;
+        margin-left: initial;
+        margin-top: initial;
+    }
+
+    .xt_extra_menus_container > a {
+        display: none;
+    }
+}
+
+.xt_question_div {
+    width: 17px;
+    height: 17px;
+    background: #555;
+    position: absolute;
+    margin-top: -27px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    cursor: pointer;
+}
